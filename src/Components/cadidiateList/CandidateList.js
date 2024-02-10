@@ -35,7 +35,6 @@ function CandidateList() {
           }}
         >
           {candidate.name}
-          {candidate.id}
         </div>
       ))}
       <div className={styles.addbtn}>
