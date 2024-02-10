@@ -1,0 +1,14 @@
+.container {
+  width: 65vw;
+  height: 100vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f7fbf;
+  border: 1px solid black;
+}
+.container > h1 {
+  font-size: 3rem;
+}

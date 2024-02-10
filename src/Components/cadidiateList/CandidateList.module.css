@@ -1,0 +1,44 @@
+.candidate_list {
+  position: relative;
+
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  overflow-y: scroll;
+  background-color: #1f7fbf;
+  border-right: 2px solid black;
+}
+.candidate_card {
+  min-height: 30px;
+  margin: 1px 2px 5px 2px;
+  padding: 5px;
+  color: #1f7fbf;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+.candidate_card:hover {
+  background-color: rgba(255, 255, 255, 0.695);
+}
+.addbtn {
+  position: fixed;
+  bottom: 20px;
+  right: 68vw;
+}
+.btn {
+  background-color: rgb(8, 99, 255);
+  color: white;
+  padding: 15px 30px;
+  margin: 8px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #5351e4;
+  color: white;
+}
